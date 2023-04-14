@@ -8,8 +8,19 @@ struct ContentView: View {
         VStack {
             TextField("integer 1 here", value: $integer1, format: .number)
             TextField("integer 2 here", value: $integer2, format: .number)
-        Button("Multiply"){
+            Button("Multiply"){
+                
+            }
+            Button("Add"){
+                
+            }
+            Button("Subtract"){
+                
+            }
+            Button("Divide"){
+                
+            }
+            Text("\(integer)")
         }
-        Text("\(integer)")
     }
 }
